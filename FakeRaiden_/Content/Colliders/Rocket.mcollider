@@ -1,0 +1,10 @@
+-- Collider for player
+
+return{
+    shape = "circular",
+    isStatic = "false",
+    isTrigger = "false",
+    bounciness = 0,
+    radius = 0.35,
+    origin = {0, 0, 0},
+}

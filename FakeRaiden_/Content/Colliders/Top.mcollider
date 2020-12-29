@@ -1,0 +1,10 @@
+-- Collider for wall
+
+return{
+    shape = "rectangular",
+    isStatic = "true",
+    isTrigger = "false",
+    bounciness = 0,
+    bottomLeft = {-4, 4.5, 0},
+    topRight = {4, 5, 0},
+}

@@ -1,0 +1,10 @@
+-- Collider for enemies
+
+return{
+    shape = "circular",
+    isStatic = "false",
+    isTrigger = "true",
+    bounciness = 0,
+    radius = 0.35,
+    origin = {0, 0, 0},
+}

@@ -1,0 +1,11 @@
+Opened log file "eae6320.log"
+Initialized time
+Registered main window class "Yuhan's EAE6320 My Main Window Class"
+The user settings file "settings.ini" doesn't exist. Using default settings instead.
+Created main window "Yuhan's EAE6320 My Game -- OpenGL -- Debug"
+Set main window resolution to 512 x 512
+The size of effect is:20
+The size of mesh is:24
+The size of structure is:1604
+Yuhan's EAE6320 My Game -- OpenGL -- Debug was successfully initialized.
+Windows failed to open the file "data/Effects/animated.beffect" for reading: The system cannot find the path specified.

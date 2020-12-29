@@ -1,0 +1,33 @@
+-- Background Music
+
+return{
+
+    audio = "Scifi.mp3",
+
+    loop = true,
+
+    autoplay = true,
+
+    volume = 0.5,
+
+    pitch = 1.0,
+
+    effects = {
+
+        reverb = false,
+        -- [0, 100]
+		density = 50,
+		-- [0.1, inf]
+		decayTime = 2,
+		-- [1, 100] in feet
+		roomSize = 100,
+		-- [0, 100]
+		wetDryMix = 100,
+		-- [0, 300] in ms
+		reflectionDelay = 4,
+		-- [0, 30]
+		positionLeft = 6,
+		-- [0, 30]
+		positionRight = 6,
+    },
+}

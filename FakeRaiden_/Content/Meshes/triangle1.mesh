@@ -1,0 +1,23 @@
+-- Bottom-left triangle
+
+return{
+
+    vertices = {
+        {
+            position = { -1.0, 0.0, 0.0 },
+            color = { 0.0, 0.0, 0.0, 1.0 },
+        },
+        {
+            position = { 0.0, 0.0, 0.0 },
+            color = { 0.0, 0.0, 0.0, 1.0 },
+        },
+        {
+            position = { 0.0, -1.0, 0.0 },
+            color = { 0.0, 0.0, 0.0, 1.0 },
+        },
+    },
+
+    indices = {
+        2, 1, 0,
+    },
+}

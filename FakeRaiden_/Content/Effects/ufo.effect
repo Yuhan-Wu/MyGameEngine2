@@ -1,0 +1,17 @@
+return{
+
+    render_state = {
+        
+		  alpha_transparency = false,
+
+		  depth_testing = true,
+
+		  depth_writing = true,
+
+		  draw_both_triangle_sides = false,
+    },
+
+    vertex_shader = "Shaders/Vertex/standard.shader",
+
+    fragment_shader = "Shaders/Fragment/ufo.shader",
+}

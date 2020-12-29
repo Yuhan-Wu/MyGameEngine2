@@ -1,0 +1,10 @@
+-- Collider for rocket bullet
+
+return{
+    shape = "circular",
+    isStatic = "false",
+    isTrigger = "true",
+    bounciness = 0,
+    radius = 0.06,
+    origin = {0, 0, 0},
+}
